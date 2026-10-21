@@ -181,6 +181,10 @@ img{
 .boton--secundario{
     background-color: var(--primario);
 }
+.boton--secundario:hover{
+    background-color: var(--negro);
+    transform: translateY(-3px);
+}
 
 .widget-curso{
     border-bottom: 1px solid var(--gris);
